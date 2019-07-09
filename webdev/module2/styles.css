@@ -1,0 +1,35 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family:Helvetica, sans-serif;
+}
+h1{
+	text-align:center;
+	margin:5%;
+}
+p{
+	border: 3px solid black;
+	position: relative;
+	padding:10px;
+}
+@media(min-width:992px){
+	.col-xl-1,.col-xl-2,.col-xl-3{
+		margin-left:5px;
+		margin-right:5px;
+		float:left;
+	}
+	.col-xl-1{
+		width:33%;
+		background-color:blue;
+	}
+	.col-xl-2{
+		width:33%;
+		background-color: yellow;
+	}
+	.col-xl-3{
+		width:33%;
+		background-color:red;
+	}
+
+}
