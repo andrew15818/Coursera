@@ -1,0 +1,33 @@
+body{
+	font-family:,helvetica, sans-serif;
+
+}
+h1{
+	text-align:center;
+}
+
+/*
+nav{
+	border: 2px solid black;
+	padding-top:0px;
+	color: blue;
+}
+*/
+/*navbar background and general formatiing*/
+#main-navbar {
+	position:relative;
+	background-color: #daa520;
+	border-radius:0;
+	padding-bottom:2%;
+}	
+/*FoodLLC title*/
+#site-title {
+	font-size:2.0em;
+	padding-top: 25px;
+}
+/*REally long paragraph*/
+#site-content {
+	border:2px solid black;
+	background-color:#c0c0c0;
+}
+
