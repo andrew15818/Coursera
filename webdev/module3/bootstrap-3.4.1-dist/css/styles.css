@@ -3,9 +3,13 @@ body{
 
 }
 h1{
-	text-align:center;
+
 }
 
+h3{
+
+
+}
 /*
 nav{
 	border: 2px solid black;
@@ -30,4 +34,6 @@ nav{
 	border:2px solid black;
 	background-color:#c0c0c0;
 }
-
+#navOptions{
+	margin-top:10px;
+}
