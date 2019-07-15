@@ -10,6 +10,15 @@ h3{
 
 
 }
+ul{
+	font-size:1.6em;
+	text-align:center;
+
+	color:#A52A2A;
+}
+li{
+	border: 1px solid black;
+}
 /*
 nav{
 	border: 2px solid black;
