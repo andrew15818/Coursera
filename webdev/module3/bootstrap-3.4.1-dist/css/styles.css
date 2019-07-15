@@ -34,15 +34,22 @@ nav{
 	padding-bottom:2%;
 }	
 /*FoodLLC title*/
-#site-title {
-	font-size:2.0em;
+.navbar-header{
+	font-size:150%;
 	padding-top: 25px;
 }
 /*REally long paragraph*/
 #site-content {
 	border:2px solid black;
+	height:1000px;
 	background-color:#c0c0c0;
 }
 #navOptions{
 	margin-top:10px;
+}
+@media (max-width 768px){
+	#site-content{
+		margin-right:15px;
+		margin-left:15px;
+	}
 }
