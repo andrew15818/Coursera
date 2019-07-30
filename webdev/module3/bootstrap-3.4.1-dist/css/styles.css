@@ -3,9 +3,22 @@ body{
 
 }
 h1{
-	text-align:center;
+
 }
 
+h3{
+
+
+}
+ul{
+	font-size:1.6em;
+	text-align:center;
+
+	color:#A52A2A;
+}
+li{
+	border: 1px solid black;
+}
 /*
 nav{
 	border: 2px solid black;
@@ -21,14 +34,23 @@ nav{
 	padding-bottom:2%;
 }	
 /*FoodLLC title*/
-#site-title {
-	font-size:2.0em;
+.navbar-header{
+	font-size:150%;
 	padding-top: 25px;
 }
 /*REally long paragraph*/
 #site-content {
 	border:2px solid black;
+	height:1000px;
 	background-color:#c0c0c0;
 	height:1000px;
 }
-
+#navOptions{
+	margin-top:10px;
+}
+@media (max-width 768px){
+	#site-content{
+		margin-right:15px;
+		margin-left:15px;
+	}
+}
